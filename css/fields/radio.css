@@ -42,6 +42,8 @@ label + .radio-wrapper{
     }
 
     &:has(:checked){
+        border: 0.125rem solid var(--stroke-highlight);
+
         & .radio-image{
             background-image: url(../../assets/icon/circle-select.svg);
         }
