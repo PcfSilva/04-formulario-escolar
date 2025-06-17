@@ -51,7 +51,7 @@ aside{
 }
 
 .actions-wrapper{
-    margin-top: 4rem;
+    margin-block: 4rem;
     display: flex;
     gap: 1rem;
 }
