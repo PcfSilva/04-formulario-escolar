@@ -1,0 +1,30 @@
+.actions-wrapper{
+    button{
+        all: unset;
+        color: var(--text-highlight);
+        border: 1px solid var(--text-highlight);
+        border-radius: 0.5rem;
+        padding: 0.75rem 1.5rem;
+
+        &.btn-primary{
+            font-weight: 500;
+            margin-left: auto;
+
+            &:hover{
+                color: var(--brand-dark);
+                border: 0.125rem solid var(--brand-dark);
+                outline: 0.25rem solid var(--surface-secondary);
+            }
+        }
+
+        &.btn-secondary{
+            color: #ffffff;
+            font-weight: 500;
+            background-color: var(--brand-dark);
+
+            &:hover{
+                background-color: #f3541c;
+            }
+        }
+    }
+}
