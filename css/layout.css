@@ -44,6 +44,8 @@ aside{
 
         & > img{
             margin-block: 2rem;
+            max-width: 5,75rem;
+            max-height: 20rem;
         }
     }
 }
