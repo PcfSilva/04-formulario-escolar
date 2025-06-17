@@ -13,7 +13,8 @@ label + .radio-wrapper{
     display: grid;
     justify-items: center;
     gap: 0.5rem;
-    border: 1px solid var(--stroke-default);
+    border-width: 0.125rem;
+    outline: 1px solid var(--stroke-default);
     border-radius: 0.5rem;
     padding: 2rem 1rem 1rem;
 
@@ -34,7 +35,7 @@ label + .radio-wrapper{
     }
 
     &:hover, &:focus-within{
-        border-color: var(--stroke-highlight);
+        outline: 1px solid var(--stroke-highlight);
 
         & .radio-image{
             background-image: url(../../assets/icon/circle-hover.svg);
@@ -42,7 +43,7 @@ label + .radio-wrapper{
     }
 
     &:has(:checked){
-        border: 0.125rem solid var(--stroke-highlight);
+        outline: 0.125rem solid var(--stroke-highlight);
 
         & .radio-image{
             background-image: url(../../assets/icon/circle-select.svg);
